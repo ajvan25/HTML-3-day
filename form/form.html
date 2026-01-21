@@ -27,10 +27,47 @@
         <br>
         <br>
         <p> Choose Gender</p>
-        
-        <input type="checkbox" name="male" name="gender " value="Male"> 
-        
+        <input type="radio" id="gender" name="gender" value="Male"> 
+        <label for="gender"> Male</label><br>
+        <input type="radio" id="gender" name="gender" value="Female"> 
+        <label for="gender"> Female</label><br>
 
-    </form>
+
+        <p>Hobbies</p>
+        <input type="checkbox" id="hoobies" name="hobbies" value="Programming">
+        <label for="hobbies"> Programming </label>
+        <br>
+        <input type="checkbox" id="hoobies" name="hobbies" value="Football">
+        <label for="hobbies"> Football </label>
+        <br>
+        <input type="checkbox" id="hoobies" name="hobbies" value="Basketball">
+        <label for="hobbies"> Basketball </label>
+        <br>
+        <input type="checkbox" id="hoobies" name="hobbies" value="Reading novel">
+        <label for="hobbies"> Reading Novel</label>
+        <br>
+        <br>
+        <form action="/action_page.php">
+        <label for="phone">Enter a phone no:</label>
+        
+        <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{3}"required>
+        <br>
+        <br>
+        <label for="address">Address</label>
+        <input type="text" id="fname" name="fname">
+        <br>
+        <br>
+        <form action="/action_page.php">
+            <label for="email">Email:</label>
+            <input type="email" id="email"name="email">
+            <br>
+            <br>
+            <label for="pwd">Password:</label>
+        <input type="password" id="pwd" name="pwd">
+        <br>
+        <br>
+        <input type="submit">
+        <input type="reset">
+        </form>
 </body>
 </html>
